@@ -1,4 +1,4 @@
-# Gemini MCP Client
+# Example Gemini MCP Client
 
 A Model Context Protocol (MCP) client implementation that connects to MCP servers and uses Google's Gemini 2.0 Flash model for intelligent function calling.
 
