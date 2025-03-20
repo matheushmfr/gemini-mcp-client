@@ -1,0 +1,16 @@
+{
+    // Python settings
+    "python.analysis.autoSearchPaths": true, // Automatically detects and includes search paths for imports
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src" // Adds "src" directory to Python's import search paths
+    ],
+    "python.envFile": "${workspaceFolder}/.env", // Specifies the environment file (.env) for loading environment variables
+    "python.terminal.activateEnvironment": true, // Ensures the virtual environment is activated in the terminal
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python", // Sets the default Python interpreter to the virtual environment's Python
+    // Test settings
+    "python.testing.pytestEnabled": true, // Enables pytest as the test framework
+    "python.testing.unittestEnabled": false, // Disables unittest as the test framework
+    "python.testing.cwd": "${workspaceFolder}/tests", // Sets the working directory for running tests to the "tests" folder
+    "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest", // Specifies the path to pytest inside the virtual environment
+    "python.testing.autoTestDiscoverOnSaveEnabled": true // Automatically discovers and updates test cases when files are saved
+}

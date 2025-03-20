@@ -1,0 +1,18 @@
+[project]
+name = "gemini-mcp-client"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.49.0",
+    "google-genai>=1.7.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.4.1",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]

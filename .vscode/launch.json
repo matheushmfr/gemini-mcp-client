@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Gemini MCP Client",
+            "type": "debugpy",
+            "request": "launch",
+            // "program": "${workspaceFolder}/client_gemini_function_call.py",
+            "program": "${workspaceFolder}/client_gemini.py",
+            "args": [
+                "/home/matheusferreira/Área de Trabalho/Repos/ad-hoc/weather-server/weather.py"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
+    ]
+}
